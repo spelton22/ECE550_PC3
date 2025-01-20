@@ -1,0 +1,6 @@
+module decoder(register, data);
+	input [31:0] register;
+	output data ;
+	
+	
+endmodule

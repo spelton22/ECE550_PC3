@@ -1,0 +1,8 @@
+module tristate_buffer(enable, data, out);
+	input enable, data;
+	output out;
+	
+	assign out = enable ? data : 1'bz;
+
+endmodule
+

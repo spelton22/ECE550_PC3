@@ -1,0 +1,10 @@
+module and3(in1, in2, in3, out);
+	input in1, in2, in3;
+	output out;
+	
+	wire x;
+	
+	and g0(x, in1, in2);
+	and g1(out, x, in3);
+	
+endmodule
